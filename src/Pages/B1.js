@@ -1,4 +1,4 @@
-import img from '/Users/jeanykwim/im1002-web/src/Images/B3_circuit.png'
+import img from '/Users/jeanykwim/im1002-web/src/Images/B1Circuit.jpg'
 import img1 from '/Users/jeanykwim/im1002-web/src/Images/B1Board.jpg'
 import img2 from '/Users/jeanykwim/im1002-web/src/Images/B1COM.png'
 import {useState} from 'react'
