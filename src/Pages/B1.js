@@ -24,13 +24,17 @@ const B1 = () => {
     return (
         <div >
             <div>
+                <center>
                 <img src={img}
                     alt="" />
+                </center>
             </div>
 
             <div>
+                <center>
                 <img src={img1}
                     alt="" />
+                </center>
             </div>
 
             <center>
