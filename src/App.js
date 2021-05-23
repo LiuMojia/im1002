@@ -18,11 +18,9 @@ class App extends Component {
 
 
       <div className='container'>
-        <div>
         <Header></Header>
         <Instruction></Instruction>
         <Images></Images>
-        </div>
 
         <div className='container'>
           <center >
