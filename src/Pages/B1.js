@@ -15,10 +15,10 @@ const B1 = () => {
             alert('please enter  a value')
             return
         }
-
-        setAnswer='answer'
         
-        // onAdd({answer}) 
+        //onSubmit({answer}) 
+        
+        setAnswer('answer')
 
     }
     return (

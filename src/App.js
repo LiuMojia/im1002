@@ -26,7 +26,7 @@ class App extends Component {
 
         <div className='container'>
           <center >
-            <h2>EXPERIMENT</h2>
+            <header><h1>EXPERIMENT</h1></header>
           </center>
 
           <div >

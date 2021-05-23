@@ -1,5 +1,6 @@
 import img from '/Users/jeanykwim/im1002-web/src/Images/B3_circuit.png'
 import {useState} from 'react'
+import Button from '/Users/jeanykwim/im1002-web/src/components/Button.js'
 
 
 const B3 = () => {
@@ -13,7 +14,7 @@ const B3 = () => {
             return
         }
 
-        setAnswer='answer'
+        setAnswer('answer')
         
         // onAdd({answer}) 
 
@@ -43,6 +44,11 @@ const B3 = () => {
                         value={answer}
                         onChange={(e) => setAnswer(e.currentTarget.value)} />
                 </div>
+
+                <Button
+                  color='royalblue'
+                  text='Submit'
+                />
 
             </form>
 
