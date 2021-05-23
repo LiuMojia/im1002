@@ -1,4 +1,4 @@
-import img1 from '/Users/jeanykwim/im1002-web/src/Images/mainPython.jpg.png';
+import img1 from './Images/mainPython.jpg.png';
 
 function Images() {
     return (
