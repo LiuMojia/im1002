@@ -1,7 +1,7 @@
-import img from '/Users/jeanykwim/im1002-web/src/Images/B3_circuit.png'
-//i changed
+import img from 'src/Images/B3_circuit.png'
+//i changed again
 import {useState} from 'react'
-import Button from '/Users/jeanykwim/im1002-web/src/components/Button.js'
+import Button from 'src/components/Button.js'
 
 
 const B3 = () => {

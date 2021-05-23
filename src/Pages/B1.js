@@ -1,8 +1,8 @@
-import img from './Images/B1Circuit.jpg'
-import img1 from './Images/B1Board.jpg'
-import img2 from './Images/B1COM.png'
+import img from 'src/Images/B1Circuit.jpg'
+import img1 from 'src/Images/B1Board.jpg'
+import img2 from 'src/Images/B1COM.png'
 import {useState} from 'react'
-import Button from './components/Button.js'
+import Button from 'src/components/Button.js'
 
 
 const B1 = () => {
