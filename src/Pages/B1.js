@@ -1,8 +1,8 @@
-import img from '/Users/jeanykwim/im1002-web/src/Images/B1Circuit.jpg'
-import img1 from '/Users/jeanykwim/im1002-web/src/Images/B1Board.jpg'
-import img2 from '/Users/jeanykwim/im1002-web/src/Images/B1COM.png'
+import img from './Images/B1Circuit.jpg'
+import img1 from './Images/B1Board.jpg'
+import img2 from './Images/B1COM.png'
 import {useState} from 'react'
-import Button from '/Users/jeanykwim/im1002-web/src/components/Button.js'
+import Button from './components/Button.js'
 
 
 const B1 = () => {

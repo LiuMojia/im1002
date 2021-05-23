@@ -1,4 +1,4 @@
-import img from '/Users/jeanykwim/im1002-web/src/Images/B2_circuit.png'
+import img from './Images/B2_circuit.png'
 import {useState} from 'react'
 import Button from '/Users/jeanykwim/im1002-web/src/components/Button.js'
 
