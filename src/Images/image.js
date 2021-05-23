@@ -1,4 +1,4 @@
-import img1 from 'src/Images/mainPython.jpg'
+import img1 from '/Users/jeanykwim/im1002-web/src/Images/mainPython.jpg'
 
 function Images() {
     return (
