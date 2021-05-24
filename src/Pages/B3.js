@@ -1,14 +1,4 @@
-<<<<<<< HEAD
-
-// import img from 'src/Images/B3_circuit.png'
-// //i changed again
-// =======
 import img from '/Users/jeanykwim/im1002-web/src/Images/B3_circuit.png'
-
-=======
-import img from './Images/B3_circuit.png'
-//i changed again
->>>>>>> 0f6a25f3b88c6414cb7a49c3e1bdee5a2063c4c2
 import {useState} from 'react'
 import Button from './components/Button.js'
 
