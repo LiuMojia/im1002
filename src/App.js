@@ -34,9 +34,6 @@ class App extends Component {
                 <Route exact path="/Pages/B1" component={B1} />
                 <Route exact path="/Pages/B2" component={B2} />
                 <Route exact path="/Pages/B3" component={B3} />
-                {/* <Redirect to="/Home" /> */}
-
-
               </Switch>
 
             </Router>

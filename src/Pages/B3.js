@@ -1,6 +1,6 @@
 import img from '/Users/jeanykwim/im1002-web/src/Images/B3_circuit.png'
 import {useState} from 'react'
-import Button from './components/Button.js'
+import Button from '/Users/jeanykwim/im1002-web/src/components/Button.js'
 
 
 const B3 = () => {
