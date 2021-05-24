@@ -12,7 +12,7 @@ body {
 
 .container {
   max-width: 1200px;
-  margin: 50px auto;
+  margin: 15px auto;
   overflow: auto;
   min-height: 100px;
   border: 2px solid steelblue;
@@ -26,6 +26,17 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+}
+
+.header1002{
+  /* align-items: center; */
+  max-width: 1200px;
+  margin: 18px auto;
+  overflow: auto;
+  padding:1px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #191970;
 }
 
 .btn {
@@ -110,4 +121,19 @@ body {
 footer {
   margin-top: 30px;
   text-align: center;
+}
+
+inputCorrect[type=text] {
+  background-color: rgb(226, 98, 98);
+  padding-left: 40px;
+}
+
+inputWrong[type=text] {
+  background-color: rgb(108, 180, 108);
+  padding-left: 40px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color:grey;
+  opacity: 1; /* Firefox */
 }

@@ -1,32 +1,31 @@
-// <<<<<<< HEAD
-// import img from 'src/Images/B1Circuit.jpg'
-// import img1 from 'src/Images/B1Board.jpg'
-// import img2 from 'src/Images/B1COM.png'
-// import {useState} from 'react'
-// import Button from 'src/components/Button.js'
-
 import img from '/Users/jeanykwim/im1002-web/src/Images/B1Circuit.jpg'
 import img1 from '/Users/jeanykwim/im1002-web/src/Images/B1Board.jpg'
 import img2 from '/Users/jeanykwim/im1002-web/src/Images/B1COM.png'
-import {useState} from 'react'
+import { useState } from 'react'
 import Button from '/Users/jeanykwim/im1002-web/src/components/Button.js'
 
 
 
 const B1 = () => {
-    const[answer,setAnswer]=useState('')
+    const [answer, setAnswer] = useState('')
+    const correctAnswer = '1.22'
+    const UpperTolerance='1.05'
+    const LowerTolerance='0.95'
 
-    const onSubmit=(e)=>{
+    const onSubmit = (e) => {
         e.preventDefault()
 
-        if(!answer){
+        if (!answer) {
             alert('please enter  a value')
             return
         }
-        
+
+        {answer<=correctAnswer*UpperTolerance&&answer>=correctAnswer*LowerTolerance?
+            setAnswer('Correct'):
+            setAnswer('Incorrect')}
+
         //onSubmit({answer}) 
-        
-        setAnswer('answer')
+        //setAnswer('answer')
 
     }
     return (
@@ -57,11 +56,12 @@ const B1 = () => {
                         placeholder='Nearest 2dp'
                         value={answer}
                         onChange={(e) => setAnswer(e.currentTarget.value)} />
+    
                 </div>
 
-            <Button
-                  color='royalblue'
-                  text='Submit'
+                <Button
+                    color='royalblue'
+                    text='Submit'
                 />
             </form>
 
@@ -72,8 +72,8 @@ const B1 = () => {
             </div>
 
             <h3>
-            The printed output at the COM port is as shown above. As the ADC sampling frequency is 100 Hz, each line is 10 mS. The time taken for Vc to reach 63% of its final value (2.08 V) is around 100mS.
-Next change the value of the resistor from 2 kΩ to 1 kΩ and measure Vc versus time. Determine the time taken for Vc to reach 63% of its final value.  Compare this with the calculated value and discuss possible causes for the difference.
+                The printed output at the COM port is as shown above. As the ADC sampling frequency is 100 Hz, each line is 10 mS. The time taken for Vc to reach 63% of its final value (2.08 V) is around 100mS.
+                Next change the value of the resistor from 2 kΩ to 1 kΩ and measure Vc versus time. Determine the time taken for Vc to reach 63% of its final value.  Compare this with the calculated value and discuss possible causes for the difference.
 
             </h3>
         </div>
