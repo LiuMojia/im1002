@@ -7,6 +7,7 @@ import Button from './components/Button'
 import Instruction from './components/Instruction'
 import Images from './Images/image'
 import { Component } from 'react';
+//import {useState } from 'react'
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom'
 //import copyright from './components/copyright'
 
@@ -16,13 +17,6 @@ class App extends Component {
 
       <div >
         <div className='header1002'>
-          {/* <Router>
-            <Switch>
-              <Route exact path="/" />
-            </Switch>
-          <Link to="/">
-          </Link>
-        </Router> */}
         <Header></Header>
 
         </div>

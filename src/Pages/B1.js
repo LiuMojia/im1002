@@ -8,7 +8,6 @@ import Button from '/Users/jeanykwim/im1002-web/src/components/Button.js'
 
 const B1 = () => {
     const [answer, setAnswer] = useState('')
-    const correctAnswer = '1.22'
     const UpperTolerance='1.05'
     const LowerTolerance='0.95'
 
@@ -19,10 +18,12 @@ const B1 = () => {
             alert('please enter  a value')
             return
         }
+        // <div>
 
-        {answer<=correctAnswer*UpperTolerance&&answer>=correctAnswer*LowerTolerance?
-            setAnswer('Correct'):
-            setAnswer('Incorrect')}
+        // {answer<=correctAnswer*UpperTolerance&&answer>=correctAnswer*LowerTolerance?
+        //     setAnswer('Correct'):
+        //     setAnswer('Incorrect')}
+        // </div>
 
         //onSubmit({answer}) 
         //setAnswer('answer')
