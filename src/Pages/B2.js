@@ -1,10 +1,6 @@
 import img from '/Users/jeanykwim/im1002-web/src/Images/B2_circuit.png'
 import {useState} from 'react'
 import Button from '/Users/jeanykwim/im1002-web/src/components/Button.js'
-//new
-// =======
-// import Button from './im1002-web/src/components/Button.js'
-// >>>>>>> 0f6a25f3b88c6414cb7a49c3e1bdee5a2063c4c2
 
 
 
